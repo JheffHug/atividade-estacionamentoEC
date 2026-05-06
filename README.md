@@ -5,31 +5,26 @@ Alexis:
 
 1. Análise do Problema
 
-O estacionamento rotativo é um sistema usado em áreas movimentadas para aumentar a circulação de vagas, permitindo que os veículos permaneçam estacionados apenas por um tempo limitado mediante pagamento. O motorista estaciona em uma vaga sinalizada, escolhe o tempo permitido e, caso ultrapasse o limite sem renovar, pode receber multa ou outra penalidade. Esse sistema ajuda a organizar o trânsito, facilita encontrar vagas e evita que carros ocupem os espaços públicos por muitas horas.
+O estacionamento rotativo é um sistema usado em áreas movimentadas para aumentar a circulação de vagas, permitindo que os veículos permaneçam estacionados apenas por um tempo limitado mediante pagamento. O condutor estaciona em uma vaga sinalizada, escolhe o tempo permitido desejado, caso ultrapasse o limite de tempo, pode receber multa ou penalidade. Esse sistema ajuda a organizar o trânsito, facilita encontrar vagas e evita que automóveis ocupem os espaços públicos por muitas horas.
 
-Para a atividade em questão o programa irá tomar as seguintes decisões: verificar o horário de entrada e saída do veículo, calcular quanto tempo o automôvel ficou estacionado, definir o valor a ser pago com base no tempo utilizado, identificar se o tempo máximo permitido foi ultrapassado, aplicar  multas em caso de atraso, registrar os dados do veículo e confirmar o pagamento realizado.
-O cliente entra com o veículo.
+1.1 Fluxo lógico do programa:
+1. Início do programa
+2. Solicitar a placa do veículo
+3. Solicitar tipo do veículo: Carro, moto e Caminhonete
+4. Solicitar qual será o tempo de permanência do veículo
+5. Calcular o valor mínimo do estacionamento com base no veículo:
+   Se for Carro: Cobra R$5 por hora
+   Se for Moto: Cobra R$3 por hora
+   Se for Caminhonete: R$8 por hora
+7. Calcular o tempo total de permanência com base no tempo desejado 
+   Se permanecer em até 1 hora: cobra somente o valor mínimo
+   Se permanecer por mais de 5 horas: desconto de 10% sobre o valor mínimo
+   Se permanecer no estacionamento por mais de 10 horas: cobra multa adicional de R$ 20 sobre o valor mínimo
+8. Apresentar o valor final ao usuário 
+9. O usurário paga o valor calculado
+10. Progama encerra
 
-
-O sistema registra:
--Tipo do veículo
--Horário de entrada
-Quando o cliente sai:
--O sistema calcula o tempo total de permanência
--Aplica a tabela de preços
--Verifica regras (desconto, multa, mínimo)
--O cliente paga o valor calculado
-
-O sistema precisa decidir:
-Qual o tipo de veículo
-Qual o valor por hora
-Se o tempo é:
-Até 1 hora → cobrar valor mínimo
-Acima de 5 horas → aplicar desconto
-Acima de 10 horas → aplicar multa
-Calcular o valor total final
-
-2. Definição das Variáveis
+4. Definição das Variáveis
 
 (POSSIVEIS VARIAVEIS DO PROGRAMA)
 | Nome da variável | Tipo          | Finalidade                                   |
@@ -44,44 +39,41 @@ Calcular o valor total final
 | opcao            | int           | Usado no switch-case para escolher o veículo |
 
 
+3. Regras de negócio:
 
-3. Regras do sistema
+3.1 Tipo de Veículo:
+ Carro → R$ 5/h
+ Moto → R$ 3/h
+ Caminhonete → R$ 8/h
 
-Carro → R$ 5/h
-Moto → R$ 3/h
-Caminhonete → R$ 8/h
-
-Regras de negócip:
-
+3.2 Tempo de permanência:
  Até 1 hora → cobra 1 hora (mínimo)
  Mais de 5 horas → 10% de desconto
  Mais de 10 horas → + R$ 20 de multa
 
-Entrada de dados:
--Tipo de veículo:
-Carro 
-Moto 
-Caminhonete
--Tempo de permanência(horas)
 
+4. Fluxograma do processamento
 
 -ESCOLHAS (switch-case)
 Se opcao == 1 → carro  valorHora = 5
 Se opcao == 2 → moto valorHora = 3
 Se opcao == 3 caminhonete valorHora = 8
+
  CÁLCULO INICIAL
 valorTotal = horas * valorHora
+
 -DECISÃO 1 (if)
 Se horas <= 1:
   valorTotal = valorHora
-
+  
 -DECISÃO 2 (if)
 Se horas > 5:
     desconto = valorTotal * 0.10
     valorTotal = valorTotal - desconto
-
+    
 -DECISÃO 3 (if)
 Se horas > 10:
     valorTotal = valorTotal + 20
+    
 SAÍDA
 Mostrar valor final
