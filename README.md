@@ -1,7 +1,7 @@
 # 1° Atividade Avaliativa Laboratorio de Programação - Sistema de Gerenciamento de Estacionamento Rotativo
 Grupo: 
 Jheferson Hugo Farias da Silva - Matrícula: 
-Alexis: 
+Alexis - Matrícula: 
 
 1. Análise do Problema
 
@@ -60,25 +60,20 @@ O estacionamento rotativo é um sistema usado em áreas movimentadas para aument
   - Se opcao == 3 caminhonete valorHora = 8
 
 - CÁLCULO INICIAL
-valorTotal = horas * valorHora
+  - valorTotal = horas * valorHora
 
 - DECISÃO 1 (if)
-Se horas <= 1:
-valorTotal = valorHora
+  - Se horas <= 1:
+  - valorTotal = valorHora
   
 - DECISÃO 2 (if)
-Se horas > 5:
-desconto = valorTotal * 0.10
-valorTotal = valorTotal - desconto
+  - Se horas <= 1:
+  - valorTotal = valorHora
+  - valorTotal = valorTotal - desconto
     
 - DECISÃO 3 (if)
-Se horas > 10:
-valorTotal = valorTotal + 20
+  - Se horas > 10:
+  - valorTotal = valorTotal + 20
     
 - SAÍDA:
 Mostrar valor final
-
-- ESCOLHAS (switch-case)
-  - Se opcao == 1 → carro  valorHora = 5
-  - Se opcao == 2 → moto valorHora = 3
-  - Se opcao == 3 caminhonete valorHora = 8
