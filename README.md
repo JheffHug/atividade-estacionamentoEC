@@ -1,28 +1,28 @@
 # 1° Atividade Avaliativa Laboratorio de Programação - Sistema de Gerenciamento de Estacionamento Rotativo
 Grupo: 
-Jheferson Hugo Farias da Silva - Matrícula: 
-Alexis - Matrícula: 
+- Jheferson Hugo Farias da Silva - Matrícula: 2023046579 
+- Allexis Ryan Campos Silva - Matrícula: 20240015408 
 
 1. Análise do Problema
 
 O estacionamento rotativo é um sistema usado em áreas movimentadas para aumentar a circulação de vagas, permitindo que os veículos permaneçam estacionados apenas por um tempo limitado mediante pagamento. O condutor estaciona em uma vaga sinalizada, escolhe o tempo permitido desejado, caso ultrapasse o limite de tempo, pode receber multa ou penalidade. Esse sistema ajuda a organizar o trânsito, facilita encontrar vagas e evita que automóveis ocupem os espaços públicos por muitas horas.
 
 1.1. Fluxo lógico do programa:
-- Início do programa
-- Solicitar a placa do veículo
-- Solicitar tipo do veículo: Carro, moto e Caminhonete
-- Solicitar qual será o tempo de permanência do veículo
-- Calcular o valor mínimo do estacionamento com base no veículo:
+- 1 - Início do programa
+- 2 - Solicitar a placa do veículo
+- 3 - Solicitar tipo do veículo: Carro, moto e Caminhonete
+- 4 - Solicitar qual será o tempo de permanência do veículo
+- 5 - Calcular o valor mínimo do estacionamento com base no veículo:
   - Se for Carro: Cobra R$5 por hora;
   - Se for Moto: Cobra R$3 por hora;
   - Se for Caminhonete: R$8 por hora;
-- Calcular o tempo total de permanência com base no tempo desejado:
+- 6 - Calcular o tempo total de permanência com base no tempo desejado:
   - Se permanecer em até 1 hora: cobra somente o valor mínimo;
   - Se permanecer por mais de 5 horas: desconto de 10% sobre o valor mínimo;
   - Se permanecer no estacionamento por mais de 10 horas: cobra multa adicional de R$ 20 sobre o valor mínimo;
-- Apresentar o valor final ao usuário 
-- O usurário paga o valor calculado
-- Progama encerra.
+- 7 - Apresentar o valor final ao usuário 
+- 8 - O usurário paga o valor calculado
+- 9 - Progama encerra.
 
 2. Definição das Variáveis
 
