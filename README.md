@@ -89,13 +89,12 @@ Mostrar valor final
 ## 5. Compilação e Execução
 
 Projeto desenvolvido em linguagem C para simular o funcionamento
-de um estacionamento rotativo. Código fonte foi 
-
-Para executar o projeto é necessário possuir:
+de um estacionamento rotativo. Para executar o projeto é necessário possuir:
 
 - GCC instalado
 - Terminal ou prompt de comando
-- Ou utilizar o site GDB online, 
+- Ou utilizar o site GDB online,
+
 ---
 
 Como compilar
