@@ -3,6 +3,8 @@ Grupo:
 - Jheferson Hugo Farias da Silva - Matrícula: 2023046579 
 - Allexis Ryan Campos Silva - Matrícula: 20240015408 
 
+---
+
 1. Análise do Problema
 
 O estacionamento rotativo é um sistema usado em áreas movimentadas para aumentar a circulação de vagas, permitindo que os veículos permaneçam estacionados apenas por um tempo limitado mediante pagamento. O condutor estaciona em uma vaga sinalizada, escolhe o tempo permitido desejado, caso ultrapasse o limite de tempo, pode receber multa ou penalidade. Esse sistema ajuda a organizar o trânsito, facilita encontrar vagas e evita que automóveis ocupem os espaços públicos por muitas horas.
@@ -24,6 +26,8 @@ O estacionamento rotativo é um sistema usado em áreas movimentadas para aument
 - 8 - O usurário paga o valor calculado
 - 9 - Progama encerra.
 
+---
+
 2. Definição das Variáveis
 
 (POSSIVEIS VARIÁVEIS DO PROGRAMA)
@@ -38,6 +42,7 @@ O estacionamento rotativo é um sistema usado em áreas movimentadas para aument
 | valorMinimo      | float         | Valor mínimo (1 hora)                        |
 | opcao            | int           | Usado no switch-case para escolher o veículo |
 
+---
 
 3. Regras de negócio:
 
@@ -51,6 +56,7 @@ O estacionamento rotativo é um sistema usado em áreas movimentadas para aument
  - Mais de 5 horas → 10% de desconto
  - Mais de 10 horas → + R$ 20 de multa
 
+---
 
 4. Fluxograma do processamento
 
@@ -78,6 +84,7 @@ O estacionamento rotativo é um sistema usado em áreas movimentadas para aument
 - SAÍDA:
 Mostrar valor final
 
+---
 
 5. Compilação e Execução
 
