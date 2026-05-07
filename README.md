@@ -103,7 +103,7 @@ gcc main.c -o estacionamento
 
 Como executar
 
-### Linux / Mac
+Linux / Mac
 
 ```bash
 ./estacionamento
