@@ -108,5 +108,6 @@ https://www.onlinegdb.com/
 ---
 
 Como executar
-
+- Copie o código fonte no compilador online
 - Clique na opção Run ou pressione F9 no teclado
+- Vizulizar a saída do programa
