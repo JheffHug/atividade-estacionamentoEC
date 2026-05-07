@@ -95,31 +95,19 @@ Para executar o projeto é necessário possuir:
 
 - GCC instalado
 - Terminal ou prompt de comando
-
+- Ou utilizar o site GDB online, 
 ---
 
 Como compilar
 
-No terminal, execute:
+No site, copinando a URL abaixo no seu navegador:
 
 ```bash
-gcc main.c -o estacionamento
+https://www.onlinegdb.com/
 ```
 
 ---
 
 Como executar
 
-Linux / Mac
-
-```bash
-./estacionamento
-```
-
-Windows
-
-```bash
-estacionamento.exe
-```
-
-
+- Clique na opção Run ou pressione F9 no teclado
