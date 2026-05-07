@@ -96,9 +96,7 @@ Para compilar um código fonte em C, utiliza-se um compilador como o GCC (GNU Co
   - Windows: Instale via MinGW.
   - No painel de controle da máquina, adicione o caminho da pasta bin do MinGW nas váriaveis do sistema do usuário da máquina
   - Abra o painel de controle do sistema(cmd)
-  - Digite o caminha da pasta onde o arquivo do codigo fonte foi instalado
-    - Exemplo: C:\Users\USER\meuprogramas\codigo_fonte
-  - digite o comando: gcc main. -o nome_do_executavel(definirá o nome do progama executável)
+  - Digite o comando: gcc main. -o nome_do_executavel(definirá o nome do progama executável)
 
 - Como executar:
   - No Terminal(cmd: Navegue até a pasta onde salvou o main.c (ex: C:\Users\USER\meuprogramas\codigo_fonte).
