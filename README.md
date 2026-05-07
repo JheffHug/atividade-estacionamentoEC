@@ -90,22 +90,29 @@ Mostrar valor final
 
 Para compilar um código fonte em C, utiliza-se um compilador como o GCC (GNU Compiler Collection). O GCC é nativo de máquinas com o sistemas operacionais Linux. Para atividade em questão foi instalado o MinGW (abreviação de Minimalist GNU for Windows) é um conjunto de ferramentas que traz os compiladores e utilitários do mundo Linux (GNU) para o ambiente Windowns. Para uma abordagem mais prática também é possível compilar o código fonte em sites gratuitos, como o onlinegdb.com.
 
-1. Passos para Compilar em C (Terminal/Linha de Comando):
-- Instale o GCC:Linux: Geralmente já instalado ou disponível via sudo apt install build-essential.
-- Windows: Instale via MinGW ou MSYS2.
-- Mac: Instale o Xcode Command Line Tools (xcode-select --install).
+---
 
-2. Abra o Terminal: Navegue até a pasta onde salvou o arquivo .c (ex: cd documentos/projetos).
+- Passos para Compilar em C no Windowns(Terminal/Linha de Comando):
+  - Windows: Instale via MinGW.
+  - No painel de controle da máquina, adicione o caminho da pasta bin do MinGW nas váriaveis do sistema do usuário da máquina
+  - Abra o painel de controle do sistema(cmd)
+  - Digite o caminha da pasta onde o arquivo do codigo fonte foi instalado
+    - Exemplo: C:\Users\USER\meuprogramas\codigo_fonte
+  - digite o comando: gcc main. -o nome_do_executavel(definirá o nome do progama executável)
 
-- GCC instalado
-- Terminal ou prompt de comando
-- Ou utilizar o site GDB online,
+- Como executar:
+  - No Terminal(cmd: Navegue até a pasta onde salvou o main.c (ex: C:\Users\USER\meuprogramas\codigo_fonte).
+  - Digite o comando: gcc main. -o nome_do_executavel(definirá o nome do progam executável)
+  - Com isso um programa será gerado na mesma pasta do arquivo main.c
+  - Digite .\nome_do_executavel.exe
+  - Coloque as entradas e teste o programa no terminal
+  - Vizulize a saída do programa
 
 ---
 
-Como compilar
+- Passos para Compilar em C através do site: olinegdb(opcional)
 
-No site, copinando a URL abaixo no seu navegador:
+  - No site, copinando a URL abaixo no navegador:
 
 ```bash
 https://www.onlinegdb.com/
@@ -113,7 +120,8 @@ https://www.onlinegdb.com/
 
 ---
 
-Como executar
-- Copie o código fonte no compilador online
-- Clique na opção Run ou pressione F9 no teclado
-- Vizulizar a saída do programa
+- Como executar:
+  - Copie o código fonte no compilador online
+  - Clique na opção Run ou pressione F9 no teclado
+  - Coloque as entradas e teste o programa
+  - Vizulize a saída do programa
