@@ -77,3 +77,42 @@ O estacionamento rotativo é um sistema usado em áreas movimentadas para aument
     
 - SAÍDA:
 Mostrar valor final
+
+
+5. Compilação e Execução
+
+Projeto desenvolvido em linguagem C para simular o funcionamento
+de um estacionamento rotativo. Código fonte foi 
+
+Para executar o projeto é necessário possuir:
+
+- GCC instalado
+- Terminal ou prompt de comando
+
+---
+
+Como compilar
+
+No terminal, execute:
+
+```bash
+gcc main.c -o estacionamento
+```
+
+---
+
+Como executar
+
+### Linux / Mac
+
+```bash
+./estacionamento
+```
+
+Windows
+
+```bash
+estacionamento.exe
+```
+
+
