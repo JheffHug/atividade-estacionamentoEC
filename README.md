@@ -88,8 +88,14 @@ Mostrar valor final
 
 ## 5. Compilação e Execução
 
-Projeto desenvolvido em linguagem C para simular o funcionamento
-de um estacionamento rotativo. Para executar o projeto é necessário possuir:
+Para compilar um código fonte em C, utiliza-se um compilador como o GCC (GNU Compiler Collection). O GCC é nativo de máquinas com o sistemas operacionais Linux. Para atividade em questão foi instalado o MinGW (abreviação de Minimalist GNU for Windows) é um conjunto de ferramentas que traz os compiladores e utilitários do mundo Linux (GNU) para o ambiente Windowns. Para uma abordagem mais prática também é possível compilar o código fonte em sites gratuitos, como o onlinegdb.com.
+
+1. Passos para Compilar em C (Terminal/Linha de Comando):
+- Instale o GCC:Linux: Geralmente já instalado ou disponível via sudo apt install build-essential.
+- Windows: Instale via MinGW ou MSYS2.
+- Mac: Instale o Xcode Command Line Tools (xcode-select --install).
+
+2. Abra o Terminal: Navegue até a pasta onde salvou o arquivo .c (ex: cd documentos/projetos).
 
 - GCC instalado
 - Terminal ou prompt de comando
